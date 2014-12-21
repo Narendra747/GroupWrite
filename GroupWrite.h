@@ -6,6 +6,7 @@
 class GroupWrite
 {
   public:
+    GroupWrite();
     void group(byte pin1,byte pin2,byte pin3,byte pin4);
     void set(byte value1,byte value2,byte value3,byte value4);
   private:
