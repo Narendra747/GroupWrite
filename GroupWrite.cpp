@@ -1,6 +1,9 @@
 #include "Arduino.h"
 #include "GroupWrite.h"
-
+GroupWrite::GroupWrite()
+{
+}
+}
 void GroupWrite::group(byte pin1,byte pin2,byte pin3,byte pin4)
 {
   _pin1=pin1;
